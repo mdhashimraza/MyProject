@@ -1,0 +1,47 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+}
+
+.slider{
+    height:100vh;
+}
+
+.slid{
+    display: none;
+}
+
+img{
+    height: 100vh;
+    width: 100%;
+}
+
+.btn{
+    position: absolute;
+    top: 45%;
+    font-size: 4rem;
+    color: rgb(233, 172, 58);
+    padding: 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+}
+
+.btn:hover{
+    background-color: lightgrey;
+    color: #000;
+    cursor: pointer;
+}
+
+.prev{
+    left: 2rem;
+}
+
+.next{
+    right: 2rem;
+}
